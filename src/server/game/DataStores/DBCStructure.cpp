@@ -47,7 +47,7 @@ SpellEntry::SpellEntry(SpellEntry_n const* spell)
     SpellIconID = spell->SpellIconID;
     activeIconID = spell->activeIconID;
     SpellName = spell->SpellName;
-    Rank = spell->Rank;
+    SpellShapeshiftId = spell->SpellShapeshiftId;
     SchoolMask = spell->SchoolMask;
     runeCostID = spell->runeCostID;
     SpellDifficultyId = spell->SpellDifficultyId;
@@ -63,7 +63,6 @@ SpellEntry::SpellEntry(SpellEntry_n const* spell)
     SpellLevelsId = spell->SpellLevelsId;
     SpellPowerId = spell->SpellPowerId;
     SpellReagentsId = spell->SpellReagentsId;
-    SpellShapeshiftId = spell->SpellShapeshiftId;
     SpellTargetRestrictionsId = spell->SpellTargetRestrictionsId;
     SpellTotemsId = spell->SpellTotemsId;
     
